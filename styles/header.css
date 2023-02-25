@@ -21,6 +21,7 @@
 }
 
 .logo {
+  text-decoration: none;
   color: #1ed760;
   font-size: 35px;
   padding: 0 80px;
@@ -211,17 +212,34 @@ ul.show {
 
 .haeder-content-information h1 {
   font-size: 100px;
+  text-align: center;
   padding-bottom: 30px;
   background: -webkit-linear-gradient(#1ed760, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
 
+.haeder-content-information p {
+  text-align: center;
+  width: 70%
+}
+
 .haeder-content-information button {
+  text-transform: uppercase;
   margin-top: 20px;
   padding: 20px;
   font-size: 30px;
   color: white;
+  background-color: #1ed760;
+}
+
+.haeder-content-information button:hover {
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  transition: 0.5s;
   background-color: #1ed760;
 }
 
