@@ -27,28 +27,86 @@
   font-weight: bold;
 }
 
-.menu_items {
+.nav {
   display: flex;
   list-style: none;
   margin-right: 30px;
 }
 
-.menu_items li {
+.nav li {
   border-radius: 3px;
   margin: 0 5px;
 }
 
-.menu_items li a{
+.nav li a{
   padding: 7px 13px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: bold;
   display: block;
   text-transform: uppercase;
   color: #fff;
 }
 
-.menu_items li:hover, li.activate {
+.nav li:hover, li.activate {
   background-color: rgba(0, 0, 0, .3);
+}
+
+/*MENu ITEMS*/
+.nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  paddin: 0;
+}
+
+.nav a {
+  padding: .5em .8em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a::before,
+.nav a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: #3DA35D;
 }
 
 .btn_menu {
@@ -63,7 +121,7 @@ ul.show {
   top: 65px;
 }
 
-
+/*
 @media screen and (max-width: 952px) {
   .logo {
     font-size: 30px;
@@ -130,7 +188,7 @@ ul.show {
     height: calc(100% - 65px);
   }
 }
-
+*/
 
 /*HEADER CONTENT*/
 
@@ -179,4 +237,3 @@ ul.show {
   background-repeat: no-repeat;
   background-image: url('../assets/img/header_devices.png');
 }
-
