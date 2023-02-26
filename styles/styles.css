@@ -5,10 +5,17 @@ box-sizing: border-box;}
 body {
     background-color: black;
 }
+
 .aboutus-section {
+    margin-top: 100px;
     padding: 40px 40px 80px 40px;
     display: flex;
-    justify-content: center;
+    
+    flex-direction: column;
+    align-items: center;
+    
+
+    background: black;
     
 }
 .carousel {
@@ -18,8 +25,10 @@ body {
         height: 500px;
 }
 .aboutus-h {
+    
     text-align: center;
-    color: rgb(62, 61, 61);
+    color: rgb(145, 145, 145);
+    background-color: black;
 }
 .container {
     display: flex;
@@ -31,7 +40,7 @@ body {
 }
 .aboutus-name {
     padding: 20px 40px 20px 40px;
-    color: rgb(42, 42, 41);
+    color: rgb(123, 123, 123);
 }
 .aboutus-description {
     font-size: 25px;
@@ -42,8 +51,8 @@ body {
 
 }
 .aboutus-img {
-     width: 300px;
-     height: 300px;
+     width: 180px;
+     height: 180px;
      margin: 10px;
 }
 /*Promo-Cards*/
