@@ -38,6 +38,7 @@ body {
     height: 100%;
     align-items: center;
 }
+
 .aboutus-name {
     padding: 20px 40px 20px 40px;
     color: rgb(111, 93, 93);
@@ -122,31 +123,30 @@ body {
     background-color: rgb(88, 178, 88);
 }
 .promo-button {
+    background-color: rgb(212, 211, 211);
     font-weight: bolder;
     font-style: oblique;
     padding: 10px;
-    margin: 40px 10px 10px 10px;
-    border-radius: 20px;
+    margin: 80px 10px 10px 10px;
+    border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: all 0.3s ease;
     border: solid 2px rgb(81, 81, 81);
 
 }
-.promo-button1 {
-     background-color: indianred;
-}
+
+
 .promo-button:hover{
+    padding: 40px;
+    color: orange;
+    border: solid 1px rgb(53, 51, 50);
+    font-size: 1.1em;
+    cursor: pointer;
+    
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.promo-button2 {
-    
-    background-color: cornflowerblue;
-}
 
-.promo-button3 {
-   
-    background-color: rgb(88, 178, 88);
-}
+
 
 
 
