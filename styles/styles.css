@@ -136,8 +136,8 @@ body {
 
 
 .promo-button:hover{
-    padding: 40px;
-    color: orange;
+    background-color: rgb(142, 141, 141);
+    color: whitesmoke;
     border: solid 1px rgb(53, 51, 50);
     font-size: 1.1em;
     cursor: pointer;
