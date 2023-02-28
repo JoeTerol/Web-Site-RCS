@@ -5,10 +5,16 @@ box-sizing: border-box;}
 body {
     background-color: black;
 }
+
 .aboutus-section {
     padding: 40px 40px 80px 40px;
     display: flex;
-    justify-content: center;
+    
+    flex-direction: column;
+    align-items: center;
+    
+
+    background: black;
     
 }
 .carousel {
@@ -18,8 +24,10 @@ body {
         height: 500px;
 }
 .aboutus-h {
+    
     text-align: center;
-    color: rgb(62, 61, 61);
+    color: rgb(145, 145, 145);
+    background-color: black;
 }
 .container {
     display: flex;
@@ -29,9 +37,10 @@ body {
     height: 100%;
     align-items: center;
 }
+
 .aboutus-name {
     padding: 20px 40px 20px 40px;
-    color: rgb(42, 42, 41);
+    color: rgb(111, 93, 93);
 }
 .aboutus-description {
     font-size: 25px;
@@ -42,8 +51,8 @@ body {
 
 }
 .aboutus-img {
-     width: 300px;
-     height: 300px;
+     width: 180px;
+     height: 180px;
      margin: 10px;
 }
 /*Promo-Cards*/
@@ -61,9 +70,13 @@ body {
 }
 .promo-sctn h3 {
     color: rgb(43, 43, 43) ;
+    padding: 15px 0 10px 0; 
 }
 .promo-list {
     color: rgb(25, 25, 26);
+    
+    padding-bottom: 70px;
+    border-radius: 30px;
 }
  
 
@@ -73,70 +86,66 @@ body {
     justify-content: center;
     flex-direction: column;
       
-    border: solid 2px rgb(151, 136, 108);
+    
     padding: 30px;
     margin: 20px ;
-    border-radius: 15px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+.promo-card:hover {
+    box-shadow: 0 0 20px white;
+
 }
 .promo-card li {
-    padding: 20px 5px 20px 5px;
+    list-style-type: none;
+    padding: 20px 5px 20px 15px;
+}
+.promo-list-1 { 
+    background-color: rgb(211, 153, 153);
+
 }
 .promo-one {
     background-color: indianred ;
 }
+.promo-list-2 {
+    background-color: rgb(137, 166, 223);
+
+}
 .promo-two {
     background-color: cornflowerblue;
+}
+.promo-list-3 {
+    background-color: rgb(139, 186, 139);
+
 }
 .promo-three {
     background-color: rgb(88, 178, 88);
 }
-.promo-button1 {
+.promo-button {
+    background-color: rgb(212, 211, 211);
     font-weight: bolder;
     font-style: oblique;
     padding: 10px;
-    margin: 40px 10px 10px 10px;
-    border-radius: 20px;
-    background-color: indianred;
-    border: solid 2px rgb(99, 44, 44);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
+    margin: 80px 10px 10px 10px;
+    border-radius: 8px;
+    border: solid 2px rgb(81, 81, 81);
+    transition: all 0.2s ease;
+
 }
-.promo-button1:hover{
+
+
+.promo-button:hover{
+    background-color: rgb(142, 141, 141);
+    color: whitesmoke;
+    border: solid 1px rgb(53, 51, 50);
+    font-size: 1.1em;
+    cursor: pointer;
+    
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.promo-button2 {
-    font-weight: bolder;
-    font-style: oblique;
-    padding: 10px;
-    margin: 40px 10px 10px 10px;
-    border-radius: 20px;
-    background-color: cornflowerblue;
-    border: solid 2px rgb(45, 66, 105);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-    
-}
-.promo-button2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 
-}
-.promo-button3 {
-    font-weight: bolder;
-    font-style: oblique;
-    padding: 10px;
-    margin: 40px 10px 10px 10px;
-    border-radius: 20px;
-    background-color: rgb(88, 178, 88);
-    border: solid 2px rgb(33, 69, 33);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
-    
-}
-.promo-button3:hover {
 
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
-}
-/*estos son los estilos de radio*/
 
