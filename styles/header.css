@@ -16,6 +16,7 @@ body {
 /*HEADER CONTENT*/
 header {
     background-color: black;
+    margin-bottom: 10rem;
 }
 
 /*NAV BAR*/
@@ -224,15 +225,18 @@ ul.show {
 .haeder-content-information h1 {
   font-size: 100px;
   text-align: center;
+  font-weight: 600;
   padding-bottom: 30px;
   background: -webkit-linear-gradient(#fa6b37, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-rendering: optimizeLegibility;
   }
 
 .haeder-content-information p {
   text-align: center;
-  width: 70%
+  width: 70%;
+  text-rendering: optimizeLegibility;
 }
 
 .header-content-img {

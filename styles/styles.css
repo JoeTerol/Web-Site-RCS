@@ -150,8 +150,53 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/*SECTION = INFORMATION GLOBAL*/
+.information-sound {
+    align-items: center;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    word-spacing: 3px;
+    margin-top: 2rem;
+}
 
+.information-sound h1 {
+    width: 100%;
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
 
+.information-sound p {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    color: #ffff;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+}
 
+.information-sound-category {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    justify-content:  center;
+    color: #ffff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 
+.information-sound-level {
+    width: 100%;
+    border-right: 1px solid #ffff;
+}
 
+.information-sound-level h2 {
+    font-weight: 600;
+}
+
+.information-sound-level img {
+    width: 200px;
+    margin-bottom: 2rem;
+}
