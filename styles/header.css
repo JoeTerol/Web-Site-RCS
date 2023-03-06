@@ -263,6 +263,10 @@ ul.show {
     background-image: url('../assets/img/header-content.png');
 }
 
+.header-content-img-ranking {
+    background-image: url('../assets/img/header-ranking.png');
+}
+
 /***************************/
 /*
 .ov-btn-slide-left {
