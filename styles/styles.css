@@ -101,7 +101,7 @@ body {
 }
 .promo-card:hover {
     box-shadow: 0 0 20px white;
-    transform: scale(1.2); translate: 100%;
+    transform: scale(1.1); translate: 0%;
 
 }
 .promo-card li {
