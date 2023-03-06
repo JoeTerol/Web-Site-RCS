@@ -247,6 +247,12 @@ body {
     background-size: cover;
 }
 
+.information-sound {
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
 .information-sound h1 {
     width: 100%;
     color: #ffff;
