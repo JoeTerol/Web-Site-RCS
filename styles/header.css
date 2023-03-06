@@ -227,7 +227,8 @@ ul.show {
   text-align: center;
   font-weight: 600;
   padding-bottom: 30px;
-  background: -webkit-linear-gradient(#fa6b37, #ffffff);
+  background-image: radial-gradient(circle at 30% 85%,#da7c3d 20%, #933b88 35%, #443cac 55%);
+  /*background: -webkit-linear-gradient(#fa6b37, #ffffff);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-rendering: optimizeLegibility;
@@ -313,7 +314,8 @@ ul.show {
   text-transform: uppercase;
   color: #ffff;
   background-color: #fa6b37;
-  font-size: 30px;
+  font-size: 18px;
+  font-weight: bold;
   border-radius: 2px;
 }
 

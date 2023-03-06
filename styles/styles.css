@@ -159,6 +159,8 @@ body {
     text-rendering: optimizeLegibility;
     word-spacing: 3px;
     margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 
 .information-sound h1 {

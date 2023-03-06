@@ -135,3 +135,27 @@ a:hover {
         height: auto;
     }
 }
+
+/*INFORMATION CONTENT*/
+
+.information-content {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px ;
+}
+
+.information-content h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+}
+
+
+.information-content p {
+    width: 100%;
+    text-align: center;
+}
