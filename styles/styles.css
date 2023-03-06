@@ -352,3 +352,7 @@ body {
     transition: all 300ms;
     transform: scale(1.15);
 }
+.social-icon {
+    background-color: #ffff;
+    color: #ffff;
+}
