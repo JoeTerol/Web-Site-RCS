@@ -1,9 +1,15 @@
-*{margin: 0;
-padding: 0;
-box-sizing: border-box;}
+/* GLOBAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*Carousel de los integrantes*/ 
 body {
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
 }
 
 .aboutus-section {

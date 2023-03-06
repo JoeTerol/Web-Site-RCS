@@ -6,8 +6,17 @@
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
+  
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER CONTENT*/
+header {
+    background-color: black;
+}
 
 /*NAV BAR*/
 
@@ -64,7 +73,7 @@
   display: inline-block;
   list-style: outside none none;
   margin: .5em 1em;
-  paddin: 0;
+  padding: 0;
 }
 
 .nav a {
@@ -192,11 +201,6 @@ ul.show {
   }
 }
 */
-
-/*HEADER CONTENT*/
-header {
-    background-color: black;
-}
 
 .haeder-content {
   width: 90%;
