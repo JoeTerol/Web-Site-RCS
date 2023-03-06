@@ -13,7 +13,8 @@ body {
 }
 
 .aboutus-section {
-    padding: 40px 40px 80px 40px;
+    
+    padding: 90px 40px 80px 40px;
     display: flex;
     
     flex-direction: column;
@@ -71,7 +72,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .promo-sctn h2 { 
-    color: black;
+    color: rgb(12, 64, 56);
+    
 
 }
 .promo-sctn h3 {
@@ -79,6 +81,7 @@ body {
     padding: 15px 0 10px 0; 
 }
 .promo-list {
+   
     color: rgb(25, 25, 26);
     
     padding-bottom: 70px;
@@ -91,41 +94,40 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-      
-    
     padding: 30px;
     margin: 20px ;
     border-radius: 50px;
-    transition: all 0.2s ease;
+    transition: all 3s ;
 }
 .promo-card:hover {
     box-shadow: 0 0 20px white;
+    transform: scale(1.1); translate: 0%;
 
 }
 .promo-card li {
+    color: rgb(13, 63, 55);
     list-style-type: none;
     padding: 20px 5px 20px 15px;
 }
 .promo-list-1 { 
-    background-color: rgb(211, 153, 153);
+    background: linear-gradient(#ef8f8f, #c2c5e7);
 
 }
 .promo-one {
-    background-color: indianred ;
+    background: linear-gradient(#e66465, #9198e5);
 }
 .promo-list-2 {
-    background-color: rgb(137, 166, 223);
-
+    background-image: linear-gradient(to bottom, #7fa3d8, #88c8ea, #70b2b7, #53bb94, #a5ecd9);
 }
 .promo-two {
-    background-color: cornflowerblue;
+    background-image: linear-gradient(to bottom, #3073d8, #25a5ea, #24a6b0, #3e9f7c, #3dedbe);
 }
 .promo-list-3 {
-    background-color: rgb(139, 186, 139);
+   background-image:  linear-gradient(to bottom, #dcb372, #e4c169, #cab975, #d7d294, #e0e4ac);
 
 }
 .promo-three {
-    background-color: rgb(88, 178, 88);
+   background-image: linear-gradient(to bottom, #db9016, #e5aa18, #caa81e, #d2c429, #d0da3e);
 }
 .promo-button {
     background-color: rgb(212, 211, 211);
@@ -134,8 +136,8 @@ body {
     padding: 10px;
     margin: 80px 10px 10px 10px;
     border-radius: 8px;
-    border: solid 2px rgb(81, 81, 81);
-    transition: all 0.2s ease;
+    border: solid 2px rgb(12, 64, 56);
+    transition: all 0.5s ease;
 
 }
 
@@ -146,12 +148,116 @@ body {
     border: solid 1px rgb(53, 51, 50);
     font-size: 1.1em;
     cursor: pointer;
-    
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+/*SECTION = INFORMATION GLOBAL*/
+.information-sound {
+    align-items: center;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    word-spacing: 3px;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
 
 
+.information-sound h1 {
+    width: 100%;
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.information-sound p {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    color: #ffff;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+}
+
+.information-sound-category {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    justify-content:  center;
+    color: #ffff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.information-sound-level {
+    width: 100%;
+    border-right: 1px solid #ffff;
+}
+
+.information-sound-level h2 {
+    font-weight: 600;
+}
+
+.information-sound-level img {
+    width: 200px;
+    margin-bottom: 2rem;
+    transition: all 300ms;
+}
+
+.information-sound-level img:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+/**************information-list-reproduction*******************/
+
+.list-reproduction {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+.information-list-reproduction {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    color: #ffff;
+    font-size: 25px;
+    padding-bottom: 20px ;
+}
+
+.information-list-reproduction h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+}
 
 
+.information-list-reproduction p {
+    width: 100%;
+    text-align: center;
+}
 
+.list-reproduction-images {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.list-reproduction img {
+    width: 200px;
+    border-radius: 2%;
+}
+
+.list-reproduction img:hover {
+    cursor: pointer;
+    transition: all 300ms;
+    transform: scale(1.15);
+}
