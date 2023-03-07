@@ -258,6 +258,7 @@ body {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.25;
+    text-align: center;
 }
 
 .information-sound p {
@@ -350,4 +351,8 @@ body {
     cursor: pointer;
     transition: all 300ms;
     transform: scale(1.15);
+}
+.social-icon {
+    background-color: #ffff;
+    color: #ffff;
 }
