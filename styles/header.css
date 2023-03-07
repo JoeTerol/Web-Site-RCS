@@ -39,6 +39,12 @@ header {
   font-weight: bold;
 }
 
+.logo:hover {
+    cursor: pointer;
+    transition: all 300ms;
+    transform: scale(1.15);
+}
+
 /********NAVBAR**********/
 .nav {
   display: flex;
