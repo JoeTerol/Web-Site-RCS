@@ -126,11 +126,12 @@ header {
 
 .nav a:hover {
   color: #fa6b37;
+  transform: scale(1.15);
 }
 
 .btn_menu {
   margin-right: 30px;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   cursor: pointer;
   display: none;
@@ -273,6 +274,12 @@ ul.show {
     background-image: url('../assets/img/header-ranking.png');
 }
 
+.header-content-about{ 
+    background-size: 80%;
+    background-image: url('../assets/img/header-questida.png'); 
+    background-position: center;
+}
+
 /***************************/
 /*
 .ov-btn-slide-left {
@@ -318,15 +325,15 @@ ul.show {
 
 .haeder-content-information a {
   position: relative;
-  padding: 20px;
+  padding: 20px 50px;
   margin-top: 30px;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffff;
   background-color: #fa6b37;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 /*MENu ITEMS*/
@@ -338,11 +345,12 @@ ul.show {
 .haeder-content-information a::before,
 .haeder-content-information a::after {
   content: '';
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   position: absolute;
   transition: all .35s ease;
   opacity: 0;
+  border-radius: 4px;
 }
 
 .haeder-content-information a::before {
@@ -367,9 +375,11 @@ ul.show {
 .haeder-content-information a:hover:after{
   transform: translate(0,0);
   opacity: 1;
+  transform: scale(1.20);
 }
 
 .haeder-content-information a:hover {
   color: #fa6b37;
   background-color: black;
+  transform: scale(1.20);
 }
