@@ -374,24 +374,3 @@ body {
     background-color: #ffff;
     color: #ffff;
 }
-
-/*RESPONSIVE PROMOCARDS*/
-
-@media (max-width: 600px) {
-.promo-sctn {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-    
-}
-.playl-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.playl-card {
-    margin: 50px;
-    
-
-}
