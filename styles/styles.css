@@ -229,40 +229,7 @@ body {
     color: rgb(110, 112, 82);
 
 }
-.pop {
-    background-image: url(../assets/img/pop.jpg);
-  
-    
-    background-size: cover;
-}
-.hip {
-    background-image: url(../assets/img/hip-hop.jpg);
-  
-    background-size: cover;
-
-}
-.latin {
-    background-image: url(../assets/img/latin.jpg);
-  
-    background-size: cover;
-}
-.rock {
-    background-image: url(../assets/img/rock.jpg);
-  
-} 
-.lofi {
-    background-image: url(../assets/img/electronic.jpg);
-}
-.rithb {
-    background-image: url(../assets/img/clasica.jpg);
-  ;
-    background-size: cover;
-}
-.jazz {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TodcPvg3g_DKAIIZwA4H1ZOwlAACF58uqQ&usqp=CAU);
-  ;
-    background-size: cover;
-}
+.
 
 .information-sound {
     text-align: center;
