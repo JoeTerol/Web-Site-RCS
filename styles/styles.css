@@ -379,6 +379,7 @@ body {
 
 @media (max-width: 600px) {
 .promo-sctn {
+    margin-left: 10vw;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -394,4 +395,32 @@ body {
     
 
 }
+.promo-card {
+    margin: 10px;
+    scale:  0.9;
+}
+}
+@media (max-width: 900px) and (min-width: 600px) {
+    .promo-sctn {
+        margin-left: 10vw;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+    }
+    .playl-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .playl-card {
+        margin: 100px;
+        scale: 1.3;
+        
+    
+    }
+    .promo-card {
+        margin: 10px;
+        scale:  0.9;
+    }
 }
