@@ -285,6 +285,24 @@ body {
     cursor: pointer;
     transform: scale(1.15);
 }
+/*ABOUT*/
+.shortstory {
+    color: rgb(170, 170, 170);
+    font-size: larger;
+    
+}
+.shortstory-h {
+    font-size: 45px;
+    color: rgb(42, 65, 65);
+    background-color: #e66465;
+}
+.shortstory-p { 
+    margin: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(165, 171, 171);
+    
+}
 
 /**************information-list-reproduction*******************/
 
