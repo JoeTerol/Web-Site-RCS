@@ -1,8 +1,10 @@
 .faq-sound {
+    background-color: #201f1f;
+    background-image: linear-gradient(#000000, #201f1f);
     text-align: center;
     margin-top: 15rem;
     margin-bottom: 15rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
 }
@@ -27,14 +29,17 @@
 }
 
 .faq-sound-category {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-basis: 80%;
     flex-direction: row;
     justify-content:  center;
-    color: #ffff;
+    color: aqua;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
 
 .faq-sound-level {
     width: 100%;
