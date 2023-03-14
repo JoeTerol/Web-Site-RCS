@@ -285,7 +285,22 @@ body {
     cursor: pointer;
     transform: scale(1.15);
 }
-/*ABOUT*/
+
+@media (max-width: 900px) and (min-width: 300px) {
+    .information-sound-category {
+        display: flex;
+        flex-direction: column;
+        color: aqua;
+    }
+
+    .information-sound-level {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+}
+
+/****************ABOUT****************/
 .shortstory {
     color: rgb(170, 170, 170);
     font-size: larger;
