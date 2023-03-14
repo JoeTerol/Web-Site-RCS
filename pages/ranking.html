@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../styles/ranking.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/styles.css">
@@ -18,16 +18,16 @@
     <header>
         <nav class="menu">
             <a href="../index.html" class="logo" for="logo">RCS MUSIC</a>
-            <ul class="nav">
+            <span class="btn_menu bar-btn">
+                <i class="bi bi-list"></i>
+            </span>
+            <ul class="nav menu_items">
                 <li><a href="./radio.html">Radio</a></li>
                 <li><a href="#">Ranking</a></li>
                 <li><a href="./thematicContent.html">Suscripcion</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="./contacto.html">Login</a></li>
             </ul>
-            <span class="btn_menu">
-            <i class="fa fa-bars"></i>
-            </span>
         </nav>
         <div class="haeder-content">
             <div class="haeder-content-information">
@@ -39,217 +39,647 @@
                 <a href="" class="carrusel"></a>
             </div>
         </div>
+    
     </header>
-
-<nav class="menu2"> 
-            <ul class="nav2">
-                <li><a href="#.pop">POP</a></li>
-                <li><a href="">URBANO</a></li>
-                <li><a href="">ROCK</a></li>
-                <li><a href="">MELODICO</a></li>
-            </ul>
-</nav>
-<div class="pop">
+    <div>
+        <section>
+            <div class="subtitle">
+                <p> LOS MEJORES 15 </p>
+            </div>
+        </section>
+     </div>
     
-<div class="row">
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/Th8w0u_bV6w" target="_blank">1</a>
-        </div>
-        <img src="../assets/img/aeropuerto_camile.jpg_1902800913.webp" class="card-img" alt="aero">
-        <div class="votar">
-            <h6>Aeropuerto</h6>
-                <div class="artista">
-                    <span>CAMILO</span>
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            RANKING POP
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="pop">
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/Th8w0u_bV6w" target="_blank">1</a>
+                            </div>
+                            <img src="../assets/img/aeropuerto_camile.jpg_1902800913.webp" class="card-img" alt="aero">
+                            <div class="votar">
+                                <h6>Aeropuerto</h6>
+                                    <div class="artista">
+                                        <span>CAMILO</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/7C31UPNDupk" target="_blank">2</a>
+                            </div>
+                            <img src="../assets/img/2.jpg" class="card-img" alt="pluton">
+                            <div class="votar">
+                                <h6>Plutón ft. Kenia OS</h6>
+                                    <div class="artista">
+                                        <span>CNCO</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/j5y6xLpRwx4" target="_blank">3</a>
+                            </div>
+                            <img src="../assets/img/3.jpg" class="card-img" alt="MONOTONIA">
+                            <div class="votar">
+                                <h6>Monotonia ft. Ozuna</h6>
+                                    <div class="artista">
+                                        <span>SHAKIRA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor background-top-row">
+                            <div class="puesto">
+                            <a href="https://youtu.be/e3-mshY5k6U" target="_blank">4</a>
+                            </div>
+                            <img src="../assets/img/4.jpg" class="card-img" alt="TINI">
+                            <div class="votar">
+                                <h6>El ultimo beso ft. Tiago Pkz</h6>
+                                    <div class="artista">
+                                        <span>TINI STOESSEL</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/X0NU5LFwW_A" target="_blank">5</a>
+                            </div>
+                            <img src="../assets/img/5.jpg"  class="card-img" alt="aero">
+                            <div class="votar">
+                                <h6>Dolce</h6>
+                                    <div class="artista">
+                                        <span>LUIS FONSI</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/kYw5Ehr1y6I" target="_blank">6</a>
+                            </div>
+                            <img src="../assets/img/6.jpg" class="card-img" alt="aero">
+                            <div class="votar">
+                                <h6>MOTIVEISHON</h6>
+                                    <div class="artista">
+                                        <span>Lali</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/X6gLepxPnDM" target="_blank">7</a>
+                            </div>
+                            <img src="../assets/img/7.jpg" class="card-img" alt="aero">
+                            <div class="votar">
+                                <h6>Como Tú y Yo</h6>
+                                    <div class="artista">
+                                        <span>CHAYANNE</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/xZ8QZ-le3gY" target="_blank">8</a>
+                            </div>
+                            <img src="../assets/img/8.jpg" class="card-img" alt="MONOTONIA">
+                            <div class="votar">
+                                <h6>Amores Prohibidos</h6>
+                                    <div class="artista">
+                                        <span>JUANES</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor background-top-row">
+                            <div class="puesto">
+                            <a href="https://youtu.be/rVYEnd61biY" target="_blank">9</a>
+                            </div>
+                            <img src="../assets/img/9.jpg" class="card-img" alt="TINI">
+                            <div class="votar">
+                                <h6>Quiero Ser Yo(Ese Hombre) ft. David Bisbal</h6>
+                                    <div class="artista">
+                                        <span>LOS ANGELES AZULES</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/mTrDzMTIeq0" target="_blank">10</a>
+                            </div>
+                            <img src="../assets/img/10.jpg" class="card-img" alt="aero">
+                            <div class="votar">
+                                <h6>Vamos Pa la playa ft.Oscu, Migrantes</h6>
+                                    <div class="artista">
+                                        <span>RUGGERO PASQUARELLI</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/So10gTOBRWg" target="_blank">11</a>
+                            </div>
+                            <img src="../assets/img/11.jpg" class="card-img" alt="aero">
+                            <div class="votar">
+                                <h6>Bebiendo Sola ft.Myke Towers</h6>
+                                    <div class="artista">
+                                        <span>CAMILO</span>
+                                    </div>
+                            </div>
+                        </div>
+                    <div class="contenedor">
+                        <div class="puesto">
+                        <a href="https://youtu.be/9a5MbvxzKgs" target="_blank">12</a>
+                        </div>
+                        <img src="../assets/img/12.jpg" class="card-img" alt="aero">
+                        <div class="votar">
+                            <h6>Salir Con Vida ft. Feid</h6>
+                                <div class="artista">
+                                    <span>MORAT</span>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenedor">
+                        <div class="puesto">
+                        <a href="https://youtu.be/CAMv9cCB2dw" target="_blank">13</a>
+                        </div>
+                        <img src="../assets/img/13.jpg" class="card-img" alt="MONOTONIA">
+                        <div class="votar">
+                            <h6>BIKINI</h6>
+                                <div class="artista">
+                                    <span>MYA</span>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenedor background-top-row">
+                        <div class="puesto">
+                        <a href="https://youtu.be/Ks1JPB30hmw" target="_blank">14</a>
+                        </div>
+                        <img src="../assets/img/14.jpg" class="card-img" alt="TINI">
+                        <div class="votar">
+                            <h6>Yo Te Diré ft. Lali</h6>
+                                <div class="artista">
+                                    <span>MIRANDA!</span>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contenedor">
+                        <div class="puesto">
+                        <a href="https://youtu.be/pR862HV1mb0" target="_blank">15</a>
+                        </div>
+                        <img src="../assets/img/15.jpg" class="card-img" alt="aero">
+                        <div class="votar">
+                            <h6>CORAZONES ROTOSft. Luis Fonsi</h6>
+                                <div class="artista">
+                                    <span>LOLA INDIGO</span>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-        </div>
-    </div>
-
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/7C31UPNDupk"target="_blank">2</a>
-        </div>
-        <img src="../assets/img/2.jpg" class="card-img" alt="pluton">
-        <div class="votar">
-            <h6>Plutón ft. Kenia OS</h6>
-                <div class="artista">
-                    <span>CNCO</span>
-                </div>
-        </div>
-    </div>
-
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/j5y6xLpRwx4"target="_blank">3</a>
-        </div>
-        <img src="../assets/img/3.jpg" class="card-img" alt="MONOTONIA">
-        <div class="votar">
-            <h6>Monotonia ft. Ozuna</h6>
-                <div class="artista">
-                    <span>SHAKIRA</span>
-                </div>
-        </div>
-    </div>
-
-    <div class="contenedor background-top-row"target="_blank">
-        <div class="puesto">
-           <a href="https://youtu.be/e3-mshY5k6U">4</a>
-        </div>
-        <img src="../assets/img/4.jpg" class="card-img" alt="TINI">
-        <div class="votar">
-            <h6>El ultimo beso ft. Tiago Pkz</h6>
-                <div class="artista">
-                    <span>TINI STOESSEL</span>
-                </div>
-        </div>
-    </div>
-    
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/X0NU5LFwW_A"target="_blank">5</a>
-        </div>
-        <img src="../assets/img/5.jpg"  class="card-img" alt="aero">
-        <div class="votar">
-            <h6>Dolce</h6>
-                <div class="artista">
-                    <span>LUIS FONSI</span>
-                </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/kYw5Ehr1y6I" target="_blank">6</a>
-        </div>
-        <img src="../assets/img/6.jpg" class="card-img" alt="aero">
-        <div class="votar">
-            <h6>MOTIVEISHON</h6>
-                <div class="artista">
-                    <span>Lali</span>
-                </div>
-        </div>
-    </div>
-
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/X6gLepxPnDM"target="_blank">7</a>
-        </div>
-        <img src="../assets/img/7.jpg" class="card-img" alt="aero">
-        <div class="votar">
-            <h6>Como Tú y Yo</h6>
-                <div class="artista">
-                    <span>CHAYANNE</span>
-                </div>
-        </div>
-    </div>
-
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/xZ8QZ-le3gY"target="_blank">8</a>
-        </div>
-        <img src="../assets/img/8.jpg" class="card-img" alt="MONOTONIA">
-        <div class="votar">
-            <h6>Amores Prohibidos</h6>
-                <div class="artista">
-                    <span>JUANES</span>
-                </div>
-        </div>
-    </div>
-
-    <div class="contenedor background-top-row"target="_blank">
-        <div class="puesto">
-           <a href="https://youtu.be/rVYEnd61biY">9</a>
-        </div>
-        <img src="../assets/img/9.jpg" class="card-img" alt="TINI">
-        <div class="votar">
-            <h6>Quiero Ser Yo(Ese Hombre) ft. David Bisbal</h6>
-                <div class="artista">
-                    <span>LOS ANGELES AZULES</span>
-                </div>
-        </div>
-    </div>
-    
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/mTrDzMTIeq0"target="_blank">10</a>
-        </div>
-        <img src="../assets/img/10.jpg" class="card-img" alt="aero">
-        <div class="votar">
-            <h6>Vamos Pa la playa ft.Oscu, Migrantes</h6>
-                <div class="artista">
-                    <span>RUGGERO PASQUARELLI</span>
-                </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="contenedor">
-        <div class="puesto">
-           <a href="https://youtu.be/So10gTOBRWg" target="_blank">11</a>
-        </div>
-        <img src="../assets/img/11.jpg" class="card-img" alt="aero">
-        <div class="votar">
-            <h6>Bebiendo Sola ft.Myke Towers</h6>
-                <div class="artista">
-                    <span>CAMILO</span>
-                </div>
-        </div>
-    </div>
-<div class="contenedor">
-    <div class="puesto">
-       <a href="https://youtu.be/9a5MbvxzKgs"target="_blank">12</a>
-    </div>
-    <img src="../assets/img/12.jpg" class="card-img" alt="aero">
-    <div class="votar">
-        <h6>Salir Con Vida ft. Feid</h6>
-            <div class="artista">
-                <span>MORAT</span>
             </div>
+        </div>
     </div>
-</div>
-
-<div class="contenedor">
-    <div class="puesto">
-       <a href="https://youtu.be/CAMv9cCB2dw"target="_blank">13</a>
-    </div>
-    <img src="../assets/img/13.jpg" class="card-img" alt="MONOTONIA">
-    <div class="votar">
-        <h6>BIKINI</h6>
-            <div class="artista">
-                <span>MYA</span>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            RANKING URBANO
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="pop">
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/sWPgO0cSxI8" target="_blank">1</a>
+                            </div>
+                            <img src="../assets/img/u1.jpg" class="card-img" alt="JUNIO">
+                            <div class="votar">
+                                <h6>Junio</h6>
+                                    <div class="artista">
+                                        <span>MALUMA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/WkCJDMbCiV0" target="_blank">2</a>
+                            </div>
+                            <img src="../assets/img/u2.jpg" class="card-img" alt="Los Cachos ft. Manuel Turizo">
+                            <div class="votar">
+                                <h6>Los Cachos ft. Manuel Turizo</h6>
+                                    <div class="artista">
+                                        <span>PISO 21</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/5g2hT4GmAGU" target="_blank">3</a>
+                            </div>
+                            <img src="../assets/img/u3.jpg" class="card-img" alt="Despecha">
+                            <div class="votar">
+                                <h6>Despecha</h6>
+                                    <div class="artista">
+                                        <span>ROSALIA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/JYiOfCc0G_g" target="_blank">4</a>
+                            </div>
+                            <img src="../assets/img/u4.jpg" class="card-img" alt="UN PASO ft J Balvin">
+                            <div class="votar">
+                                <h6>UN PASO ft J Balvin</h6>
+                                    <div class="artista">
+                                        <span>TRUENO</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/0eKmO2U-HyE" target="_blank">5</a>
+                            </div>
+                            <img src="../assets/img/u5.jpg"  class="card-img" alt="Perfecta ft. Dread Mar I">
+                            <div class="votar">
+                                <h6>Perfecta ft. Dread Mar I</h6>
+                                    <div class="artista">
+                                        <span>RUSHERKING</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/4z5F83gytbI" target="_blank">6</a>
+                            </div>
+                            <img src="../assets/img/u6.jpg" class="card-img" alt="A Veces ft. Feid">
+                            <div class="votar">
+                                <h6>A Veces ft. Feid</h6>
+                                    <div class="artista">
+                                        <span>PAULO LONDRA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/CocEMWdc7Ck" target="_blank">7</a>
+                            </div>
+                            <img src="../assets/img/u7.jpg" class="card-img" alt="SHAKIRA || BZRP Music">
+                            <div class="votar">
+                                <h6>SHAKIRA || BZRP Music</h6>
+                                    <div class="artista">
+                                        <span>SHAKIRA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/U6ClQ5ileBs" target="_blank">8</a>
+                            </div>
+                            <img src="../assets/img/u8.jpg" class="card-img" alt="La copa">
+                            <div class="votar">
+                                <h6>La copa</h6>
+                                    <div class="artista">
+                                        <span>OZUNA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/BDQSaJNqjmY" target="_blank">9</a>
+                            </div>
+                            <img src="../assets/img/u9.jpg" class="card-img" alt="Frio">
+                            <div class="votar">
+                                <h6>Frio</h6>
+                                    <div class="artista">
+                                        <span>NICKI NICOLE</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/qGqf-feIVNc" target="_blank">10</a>
+                            </div>
+                            <img src="../assets/img/u10.jpg" class="card-img" alt="La nena de Argentina">
+                            <div class="votar">
+                                <h6>La nena de Argentina</h6>
+                                    <div class="artista">
+                                        <span>MARIA BECERRA</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/mU_76_inxLs" target="_blank">11</a>
+                            </div>
+                            <img src="../assets/img/u11.jpg" class="card-img" alt="To´ Esto Es Tuyo">
+                            <div class="votar">
+                                <h6>To´ Esto Es Tuyo</h6>
+                                    <div class="artista">
+                                        <span>NATTI NATASHA</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="contenedor">
+                        <div class="puesto">
+                        <a href="https://youtu.be/rtTKlw8HiFI" target="_blank">12</a>
+                        </div>
+                        <img src="../assets/img/u12.jpg" class="card-img" alt="Toy A Mil">
+                        <div class="votar">
+                            <h6>Toy A Mil</h6>
+                                <div class="artista">
+                                    <span>NICKY JAM</span>
+                                </div>
+                        </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/Tz8w_aYC1WY" target="_blank">13</a>
+                            </div>
+                            <img src="../assets/img/u13.jpg" class="card-img" alt="Neon">
+                            <div class="votar">
+                                <h6>Neon</h6>
+                                    <div class="artista">
+                                        <span>LIT KILLAH</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/aoEGUoquMP4" target="_blank">14</a>
+                            </div>
+                            <img src="../assets/img/u14.jpg" class="card-img" alt="La Gira ft. Rei">
+                            <div class="votar">
+                                <h6>La Gira ft. Rei</h6>
+                                    <div class="artista">
+                                        <span>FMK</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/10EX-_h4pYc"target="_blank">15</a>
+                            </div>
+                            <img src="../assets/img/u15.jpg" class="card-img" alt="Ojitos Lindos ft. Bomba Estereo">
+                            <div class="votar">
+                                <h6>Ojitos Lindos ft. Bomba Estereo</h6>
+                                    <div class="artista">
+                                        <span>BAD BUNNY</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
     </div>
-</div>
-
-<div class="contenedor background-top-row"target="_blank">
-    <div class="puesto">
-       <a href="https://youtu.be/Ks1JPB30hmw">14</a>
-    </div>
-    <img src="../assets/img/14.jpg" class="card-img" alt="TINI">
-    <div class="votar">
-        <h6>Yo Te Diré ft. Lali</h6>
-            <div class="artista">
-                <span>MIRANDA!</span>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            RANKING MELODICO
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="pop">
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/TiM_TFpT_DE" target="_blank">1</a>
+                            </div>
+                            <img src="../assets/img/m1.jpg" class="card-img" alt="La bachata">
+                            <div class="votar">
+                                <h6>La Bachata</h6>
+                                    <div class="artista">
+                                        <span>MANUEL TURIZO</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/opUkzmzTLuA" target="_blank">2</a>
+                            </div>
+                            <img src="../assets/img/m2.jpg" class="card-img" alt="Una vez más">
+                            <div class="votar">
+                                <h6>Una Vez más</h6>
+                                    <div class="artista">
+                                        <span>ABEL PINTOS</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/msOFw9tegxI" target="_blank">3</a>
+                            </div>
+                            <img src="../assets/img/m3.jpg" class="card-img" alt="A Mi Lado ft. Rusherking">
+                            <div class="votar">
+                                <h6>A Mi Lado ft. Rusherking</h6>
+                                    <div class="artista">
+                                        <span>REIK</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/glUan1y4pWg" target="_blank">4</a>
+                            </div>
+                            <img src="../assets/img/u4.jpg" class="card-img" alt="Acido Sabor">
+                            <div class="votar">
+                                <h6>Acido Sabor</h6>
+                                    <div class="artista">
+                                        <span>RICKY MARTIN</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/otz8jqPaxbQ" target="_blank">5</a>
+                            </div>
+                            <img src="../assets/img/m5.jpg"  class="card-img" alt="Ojos Marrones ft. Sebastian Yatra">
+                            <div class="votar">
+                                <h6>Ojos Marrones ft. Sebastian Yatra</h6>
+                                    <div class="artista">
+                                        <span>LASSO</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/E2LcMAMGUFE" target="_blank">6</a>
+                            </div>
+                            <img src="../assets/img/m6.jpg" class="card-img" alt="Amigos ft. Maria Becerra">
+                            <div class="votar">
+                                <h6>Amigos ft. Maria Becerra</h6>
+                                    <div class="artista">
+                                        <span>PABLO ALBORAN</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/EGNtW6XKYn4" target="_blank">7</a>
+                            </div>
+                            <img src="../assets/img/m7.jpg" class="card-img" alt="Yo No Te Pido la Luna">
+                            <div class="votar">
+                                <h6>Yo No Te Pido la Luna ft. MYA</h6>
+                                    <div class="artista">
+                                        <span>SOLEDAD</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/9a5MbvxzKgs" target="_blank">8</a>
+                            </div>
+                            <img src="../assets/img/m8.jpg" class="card-img" alt="Salir Con Vida ft. Feid">
+                            <div class="votar">
+                                <h6>Salir Con Vida ft. Feid</h6>
+                                    <div class="artista">
+                                        <span>MORAT</span>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/NYbNSiZMRg0" target="_blank">9</a>
+                            </div>
+                            <img src="../assets/img/m9.jpg" class="card-img" alt="Sin Haber Dormido ft. Pedro Capó">
+                            <div class="votar">
+                                <h6>Sin Haber Dormido ft. Pedro Capó</h6>
+                                    <div class="artista">
+                                        <span>LUCIANO PEREYRA</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/s6d0PRabux0" target="_blank">10</a>
+                            </div>
+                            <img src="../assets/img/m10.jpg" class="card-img" alt="Axel - Humano">
+                            <div class="votar">
+                                <h6>Axel - Humano</h6>
+                                    <div class="artista">
+                                        <span>AXEL</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/69ppp5Ipook" target="_blank">11</a>
+                            </div>
+                            <img src="../assets/img/m11.jpg" class="card-img" alt="Solo Conmigo">
+                            <div class="votar">
+                                <h6>Solo Conmigo</h6>
+                                    <div class="artista">
+                                        <span>ROMEO SANTOS</span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="contenedor">
+                        <div class="puesto">
+                        <a href="https://youtu.be/xK07C60J7HI" target="_blank">12</a>
+                        </div>
+                        <img src="../assets/img/m12.jpg" class="card-img" alt="Mi Plan de Vida ft. Abel Pintos">
+                        <div class="votar">
+                            <h6> Mi Plan de Vida ft. Abel Pintos</h6>
+                                <div class="artista">
+                                    <span>KANY GARCIA</span>
+                                </div>
+                        </div>
+                        </div>
+                    
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/WuVJMfhpdUk" target="_blank">13</a>
+                            </div>
+                            <img src="../assets/img/m13.jpg" class="card-img" alt="Por el Resto de Tu Vida ft. TINI">
+                            <div class="votar">
+                                <h6>Por el Resto de Tu Vida ft. TINI</h6>
+                                    <div class="artista">
+                                        <span>CHRISTIAN NODAL</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/2ZIjUJaEt5M" target="_blank">14</a>
+                            </div>
+                            <img src="../assets/img/m14.jpg" class="card-img" alt="Un Viaje a Todas Partes">
+                            <div class="votar">
+                                <h6>Un Viaje a Todas Partes ft. Melissa Robles</h6>
+                                    <div class="artista">
+                                        <span>CARLOS RIVERA</span>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contenedor">
+                            <div class="puesto">
+                            <a href="https://youtu.be/kmkZnLfsu3U"target="_blank">15</a>
+                            </div>
+                            <img src="../assets/img/m15.jpg" class="card-img" alt="Ambulancia">
+                            <div class="votar">
+                                <h6>Ambulancia ft. Camilo Cabello</h6>
+                                    <div class="artista">
+                                        <span>CAMILO</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
     </div>
-</div>
-
-<div class="contenedor">
-    <div class="puesto">
-       <a href="https://youtu.be/pR862HV1mb0"target="_blank">15</a>
-    </div>
-    <img src="../assets/img/15.jpg" class="card-img" alt="aero">
-    <div class="votar">
-        <h6>CORAZONES ROTOSft. Luis Fonsi</h6>
-            <div class="artista">
-                <span>LOLA INDIGO</span>
-            </div>
-    </div>
-</div>
-</div>
 </div>
 <section class="information-sound">
     <div>
