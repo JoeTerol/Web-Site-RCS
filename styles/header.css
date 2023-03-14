@@ -20,7 +20,6 @@ header {
 }
 
 /*NAV BAR*/
-
 .menu {
   background-color: black;
   height: 100px;
@@ -132,7 +131,7 @@ header {
 
 .btn_menu {
   margin-right: 30px;
-  font-size: 20px;
+  font-size: 50px;
   color: #fff;
   cursor: pointer;
   display: none;
@@ -196,9 +195,9 @@ ul.show {
 
   .logo {
     width: 100%;
-    margin: auto;
-    text-align: center;
-    font-size: 80px;
+    margin: left;
+    text-align: left;
+    font-size: 30px;
   }
 }
 
@@ -212,6 +211,37 @@ ul.show {
     height: calc(100% - 65px);
   }
   
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        margin-left: 50px;
+    }
+    
+    .nav {
+        height: 100px;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a {
+        font-size: 12px;
+    }
 }
 
 .haeder-content {
