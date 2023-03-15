@@ -1,0 +1,76 @@
+.faq-sound {
+    background-color: #201f1f;
+    background-image: linear-gradient(#000000, #201f1f);
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.faq-sound h1 {
+    width: 100%;
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.faq-sound h1:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.faq-sound p {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    color: #ffff;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+}
+
+.faq-sound-category {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    justify-content:  center;
+    color: aqua;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.faq-sound-level {
+    width: 100%;
+}
+
+.faq-sound-level h2 {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.faq-sound-level img {
+    width: 200px;
+    margin-bottom: 2rem;
+    transition: all 300ms;
+}
+
+@media (max-width: 900px) and (min-width: 300px) {
+    .faq-sound-category {
+        display: flex;
+        flex-direction: column;
+        color: aqua;
+    }
+
+    .faq-sound-level {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+}

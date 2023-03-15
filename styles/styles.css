@@ -1,0 +1,458 @@
+/* GLOBAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Carousel de los integrantes*/ 
+body {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    background-size: cover;
+}
+
+.aboutus-section {
+    
+    padding: 90px 40px 80px 40px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+
+    background: black;
+    
+}
+.carousel {
+    max-width: 800px;
+}
+.carousel-item {
+        height: 500px;
+}
+.aboutus-h {
+    
+    text-align: center;
+    color: rgb(145, 145, 145);
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.aboutus-name {
+    padding: 20px 40px 20px 40px;
+    color: rgb(111, 93, 93);
+}
+.aboutus-description {
+    font-size: 25px;
+    max-width: 70%;
+    text-align: center;
+    color: darkgrey;
+
+
+}
+.aboutus-img {
+     width: 180px;
+     height: 180px;
+     margin: 10px;
+}
+/*PROMO-CARDS*/
+.promo-sctn {
+    background-color: black;
+    color: rgb(237, 226, 210);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.promo-sctn h2 { 
+    color: rgb(12, 64, 56);
+    
+
+}
+.promo-sctn h3 {
+    color: rgb(43, 43, 43) ;
+    padding: 15px 0 10px 0; 
+}
+.promo-list {
+   
+    color: rgb(25, 25, 26);
+    
+    padding-bottom: 70px;
+    border-radius: 30px;
+}
+ 
+
+
+.promo-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px ;
+    border-radius: 3% ;
+    transition: all 0.5s ;
+}
+.promo-card:hover {
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1); translate: 0%;
+
+}
+.promo-card li {
+    color: rgb(13, 63, 55);
+    list-style-type: none;
+    padding: 20px 5px 20px 15px;
+}
+.promo-list-1 { 
+    background: linear-gradient(#ef8f8f, #c2c5e7);
+
+}
+.promo-one {
+    background: linear-gradient(#e66465, #9198e5);
+}
+.promo-list-2 {
+    background-image: linear-gradient(to bottom, #7fa3d8, #88c8ea, #70b2b7, #53bb94, #a5ecd9);
+}
+.promo-two {
+    background-image: linear-gradient(to bottom, #3073d8, #25a5ea, #24a6b0, #3e9f7c, #3dedbe);
+}
+.promo-list-3 {
+   background-image:  linear-gradient(to bottom, #dcb372, #e4c169, #cab975, #d7d294, #e0e4ac);
+
+}
+.promo-three {
+   background-image: linear-gradient(to bottom, #db9016, #e5aa18, #caa81e, #d2c429, #d0da3e);
+}
+.promo-button {
+    background-color: rgb(212, 211, 211);
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 20px;
+    margin: 80px 10px 10px 10px;
+    border-radius: 8px;
+    border: solid 2px rgb(12, 64, 56);
+    transition: all 0.5s ease;
+
+}
+
+
+.promo-button:hover{
+    background-color: rgb(142, 141, 141);
+    color: whitesmoke;
+    border: solid 1px rgb(53, 51, 50);
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ /*EVENTS*/
+.section-events {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+  
+}
+.events-card h2 {
+    padding: 100px 0px 30px;
+    font-size: 4em ;
+}
+.events-card p {
+    font-size: 1.5em;
+}
+.events-card {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    padding: 0;
+}
+ .events {
+    background-image: url(../assets/img/events-header.92c1b90.gif);
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    flex-direction: column;
+
+
+ }
+ .head-events { 
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 50px;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+
+ }
+ .head-events:hover{
+    color: rgb(238, 143, 18);
+
+ }
+ 
+ /*RECITALES*/
+ 
+ .playl-section { 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+ }
+ .playl-card { 
+    width: 150px;
+    height: 350px;
+    background-color: #7fa3d8;
+    border: solid 2px white;
+    display: flex;
+    transition: all 0.5s;
+ }
+
+.playl-card h3 {
+    margin: auto;
+    color: whitesmoke;
+    background-repeat: no-repeat;
+ }
+ .popx{ 
+    background-image: url(../assets/img/popx.jpg);
+}
+.hip {
+    background-image: url(../assets/img/hip-hop.jpg);
+}
+.latin {
+    background-image: url(../assets/img/latin.jpg );
+}
+.rock {
+    background-image: url(../assets/img/rock.jpg);
+}
+.lofi {
+    background-image: url(../assets/img/electronic.jpg);
+}
+.rithb {
+    background-image: url(../assets/img/clasica.jpg);
+}
+.jazz {
+    background-image: url(../assets/img/jazz.jpg);
+}
+.playl-card:hover {
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1); translate: 0%;
+    filter: grayscale(50%);
+    border: solid 3px rgb(240, 244, 189);
+    color: rgb(110, 112, 82);
+
+}
+
+
+.information-sound {
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.information-sound h1 {
+    width: 100%;
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.information-sound p {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    color: #ffff;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+}
+
+.information-sound-category {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    justify-content:  center;
+    color: #ffff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.information-sound-level {
+    width: 100%;
+    border-right: 1px solid #ffff;
+}
+
+.information-sound-level h2 {
+    font-weight: 600;
+}
+
+.information-sound-level img {
+    width: 200px;
+    margin-bottom: 2rem;
+    transition: all 300ms;
+}
+
+.information-sound-level img:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+@media (max-width: 900px) and (min-width: 300px) {
+    .information-sound-category {
+        display: flex;
+        flex-direction: column;
+        color: aqua;
+    }
+
+    .information-sound-level {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+}
+
+/****************ABOUT****************/
+.shortstory {
+    color: rgb(170, 170, 170);
+    font-size: larger;
+    
+}
+.shortstory-h {
+    font-size: 4em ;
+    color: rgb(61, 96, 96);
+    background-color: #e66465;
+}
+.shortstory-p { 
+
+    margin: 30px;
+    
+    font-size: 1.5em;
+    color: rgb(165, 171, 171);
+    
+}
+
+/**************information-list-reproduction*******************/
+
+.list-reproduction {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+.information-list-reproduction {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    color: #ffff;
+    font-size: 25px;
+    padding-bottom: 20px ;
+}
+
+.information-list-reproduction h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+}
+
+
+.information-list-reproduction p {
+    width: 100%;
+    text-align: center;
+}
+
+.list-reproduction-images {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.list-reproduction img {
+    width: 200px;
+    border-radius: 2%;
+}
+
+.list-reproduction img:hover {
+    cursor: pointer;
+    transition: all 300ms;
+    transform: scale(1.15);
+}
+.social-icon {
+    background-color: #ffff;
+    color: #ffff;
+}
+
+/*RESPONSIVE PROMOCARDS*/
+
+@media (max-width: 600px) {
+.promo-sctn {
+    margin-left: 10vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.playl-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.playl-card {
+    margin: 50px;
+    
+
+}
+.promo-card {
+    margin: 10px;
+    scale:  0.9;
+}
+.section-events {
+    flex-direction: column;
+}
+}
+@media (max-width: 950px) and (min-width: 600px) {
+    .promo-sctn {
+        margin-left: 10vw;
+         display: flex;
+         flex-direction: column;
+         
+    }
+    .playl-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .playl-card {
+        margin: 100px;
+        scale: 1.3;
+        
+    
+    }
+    .promo-card {
+        margin: 30px 50px 30px 0px;
+        
+    }
+    .promo-card:hover {
+        box-shadow: 0 0 20px white;
+        transform: scale(1); translate: 0%;;
+        
+}
+}
