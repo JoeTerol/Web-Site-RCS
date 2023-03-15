@@ -19,7 +19,6 @@
     color: aqua;
     text-align: center;
     width: 100%;
-    margin-bottom: 600;
 }
 .content-info p {
     font-size: 1.2rem;
@@ -49,18 +48,11 @@
     .global-content-img-2 {
         background-image: url('../assets/img/content-2.jpg');
     }
-
-    .global-content-img-2:hover {
-        
-    }
     
     .global-content-img-3 {
         background-image: url('../assets/img/content-3.jpg');
     }
 
-    .global-content-img-3:hover {
-        
-    }
 
     .content-all {
         display: flex;
