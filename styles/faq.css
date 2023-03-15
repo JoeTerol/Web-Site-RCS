@@ -18,6 +18,11 @@
     text-align: center;
 }
 
+.faq-sound h1:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
 .faq-sound p {
     width: 80%;
     margin: auto;
