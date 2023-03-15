@@ -54,6 +54,7 @@ header {
 .nav li a{
   padding: 7px 13px;
   text-decoration: none;
+  font-size: 25px;
   font-size: bold;
   font-weight: 600;
   display: block;
@@ -292,6 +293,11 @@ ul.show {
         display: flex;
         padding-bottom: 40px;
       }
+
+    .haeder-content-information h1 {
+        width: 60%;
+    }
+
 
     .header-content-img-home {
     background-image: url('../assets/img/header_devices.png');
