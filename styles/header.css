@@ -34,6 +34,7 @@ header {
 }
 
 .logo:hover{
+    color: #fa6b37;
     cursor: pointer;
     transition: all 300ms;
     transform: scale(1.15);
