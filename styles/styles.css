@@ -330,15 +330,15 @@ body {
     
 }
 .shortstory-h {
-    font-size: 45px;
+    font-size: 4em ;
     color: rgb(61, 96, 96);
     background-color: #e66465;
 }
 .shortstory-p { 
 
-    margin: 15px;
-    font-weight: bold;
-    font-style: oblique;
+    margin: 30px;
+    
+    font-size: 1.5em;
     color: rgb(165, 171, 171);
     
 }
