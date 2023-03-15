@@ -133,7 +133,7 @@ body {
     background-color: rgb(212, 211, 211);
     font-weight: bolder;
     font-style: oblique;
-    padding: 10px;
+    padding: 20px;
     margin: 80px 10px 10px 10px;
     border-radius: 8px;
     border: solid 2px rgb(12, 64, 56);
@@ -187,7 +187,9 @@ body {
 
 
  }
- .head-events {
+ .head-events { 
+    margin-top: 150px;
+    margin-bottom: 100px;
     padding: 50px;
     color: white;
     font-size: 3em;
@@ -200,7 +202,7 @@ body {
  }
  
  /*RECITALES*/
-
+ 
  .playl-section { 
     display: flex;
     justify-content: space-around;
@@ -221,7 +223,28 @@ body {
     color: whitesmoke;
     background-repeat: no-repeat;
  }
- .playl-card:hover {
+ .popx{ 
+    background-image: url(../assets/img/popx.jpg);
+}
+.hip {
+    background-image: url(../assets/img/hip-hop.jpg);
+}
+.latin {
+    background-image: url(../assets/img/latin.jpg );
+}
+.rock {
+    background-image: url(../assets/img/rock.jpg);
+}
+.lofi {
+    background-image: url(../assets/img/electronic.jpg);
+}
+.rithb {
+    background-image: url(../assets/img/clasica.jpg);
+}
+.jazz {
+    background-image: url(../assets/img/jazz.jpg);
+}
+.playl-card:hover {
     box-shadow: 0 0 20px white;
     transform: scale(1.1); translate: 0%;
     filter: grayscale(50%);
@@ -308,10 +331,11 @@ body {
 }
 .shortstory-h {
     font-size: 45px;
-    color: rgb(42, 65, 65);
+    color: rgb(61, 96, 96);
     background-color: #e66465;
 }
 .shortstory-p { 
+
     margin: 15px;
     font-weight: bold;
     font-style: oblique;
@@ -399,13 +423,16 @@ body {
     margin: 10px;
     scale:  0.9;
 }
+.section-events {
+    flex-direction: column;
 }
-@media (max-width: 900px) and (min-width: 600px) {
+}
+@media (max-width: 950px) and (min-width: 600px) {
     .promo-sctn {
         margin-left: 10vw;
          display: flex;
          flex-direction: column;
-         justify-content: center;
+         
     }
     .playl-section {
         display: flex;
@@ -420,7 +447,12 @@ body {
     
     }
     .promo-card {
-        margin: 10px;
-        scale:  0.9;
+        margin: 30px 50px 30px 0px;
+        
     }
+    .promo-card:hover {
+        box-shadow: 0 0 20px white;
+        transform: scale(1); translate: 0%;;
+        
+}
 }
