@@ -11,6 +11,7 @@
 
 /*HEADER CONTENT*/
 header {
+    width: 100%;
     background-color: black;
     margin-bottom: 10rem;
 }
@@ -139,6 +140,12 @@ ul.show {
 }
 
 
+@media screen and (min-width: 952px) {
+    #check {
+        display: none;
+      }
+}
+
 @media screen and (max-width: 952px) {
   .logo {
     font-size: 50px;
@@ -210,37 +217,53 @@ ul.show {
   
 }
 
-@media screen and (min-width: 768px) {
-    .logo {
-        margin-left: 50px;
-    }
-    
+@media screen and (max-width: 929px) {    
     .nav {
         height: 100px;
     }
 
     .nav-menu {
-        position: relative;
-        height: 100px;
-        top: 0;
-        background: none;
-        transition: none;
-        text-align: right;
-        margin-right: 50px;
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 100px;
+        background: black;
+        transition: all 0.5s;
+        text-align: center;
+        /*margin-right: 50px;*/
     }
 
     .nav-menu li {
-        display: inline-block;
-        line-height: 100px;
-        margin: 0 20px;
-        transition: none;
+        display: none;
+        line-height: 30px;
+        margin: 30px 0;
+        transition: all .5s;
     }
 
     .nav-menu li a {
-        font-size: 12px;
+      color: #fff;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .nav-menu li a.active, .nav-menu li a:hover {
+      color: #fa6b37;
+      transition: .3s;
+    }
+
+    #check {
+      display: inline-block;
+    }
+
+    #check:checked ~ .nav-menu {
+      height: 100vh;
+    }
+
+    #check:checked ~ .nav-menu li {
+      display: block;
     }
 }
-
 .haeder-content {
     width: 90%;
     margin: auto;
@@ -360,7 +383,7 @@ ul.show {
   right: 100%;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-}
+  
 .ov-btn-slide-left:hover::after {
   left: 0;
   right: 0;
