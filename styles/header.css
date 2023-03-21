@@ -257,7 +257,7 @@ ul.show {
     }
 
     #check {
-      display: inline-block;
+      display: none;
     }
 
     #check:checked ~ .nav-menu {
