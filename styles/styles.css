@@ -151,6 +151,40 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
  /*EVENTS*/
+ .add-sectn {
+    display: flex;
+    justify-content: center;
+ }
+ .video-add {
+    border: 3px solid white;
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    
+ }
+ .fest button{
+    font-size: larger;
+    margin-left: 45vw;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: gold;
+    
+ }
+ .fest button:hover {
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(223, 221, 221, 0.24), 0 17px 50px 0 rgba(135, 132, 132, 0.19);
+}
+ .fest h2 {
+    text-align: center;
+ }
+ .fest p {
+    font-size: 2em;
+    text-align: center;
+ }
+ .fest a {
+    text-align: center;
+ }
 .section-events {
     display: flex;
     justify-content: space-around;
