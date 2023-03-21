@@ -176,9 +176,12 @@ body {
     box-shadow: 0 12px 16px 0 rgba(223, 221, 221, 0.24), 0 17px 50px 0 rgba(135, 132, 132, 0.19);
 }
  .fest h2 {
+    color: #fff;
     text-align: center;
+    padding: 2rem 0;
  }
  .fest p {
+    color: #fff;
     font-size: 2em;
     text-align: center;
  }
