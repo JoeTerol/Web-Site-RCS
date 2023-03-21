@@ -354,6 +354,10 @@ body {
         padding-top: 40px;
     }
 
+    .information-sound-level {
+        width: 100%;
+        border-right: none;
+    }
 }
 
 /****************ABOUT****************/
