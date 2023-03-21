@@ -325,13 +325,13 @@ body {
 
 /****************ABOUT****************/
 .shortstory {
-    color: rgb(170, 170, 170);
+    color: rgb(255, 255, 255);
     font-size: larger;
     
 }
 .shortstory-h {
     font-size: 4em ;
-    color: rgb(61, 96, 96);
+    color: rgb(203, 205, 205);
     background-color: #e66465;
 }
 .shortstory-p { 
