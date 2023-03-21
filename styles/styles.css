@@ -212,14 +212,10 @@ body {
 }
  .events {
     background-image: url(../assets/img/events-header.92c1b90.gif);
-    height: 500px;
-    width: 500px;
+    width: 35%;
     margin-top: 100px;
-    
     display: flex;
     justify-content: space-between;
-    
-    
     flex-direction: column;
 
 
@@ -491,5 +487,8 @@ body {
         box-shadow: 0 0 20px white;
         transform: scale(1); translate: 0%;;
         
+}
+    .section-events {
+       flex-direction: column;
 }
 }
