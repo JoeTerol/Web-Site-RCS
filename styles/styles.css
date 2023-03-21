@@ -31,9 +31,10 @@ body {
         height: 500px;
 }
 .aboutus-h {
-    
+    margin-top: 1.5rem;
+    font-size: 1.rem;
     text-align: center;
-    color: rgb(145, 145, 145);
+    color: #fff;
     background-color: black;
 }
 .container {
@@ -47,16 +48,15 @@ body {
 
 .aboutus-name {
     padding: 20px 40px 20px 40px;
-    color: rgb(111, 93, 93);
+    color: #fff
 }
 .aboutus-description {
     font-size: 25px;
     max-width: 70%;
     text-align: center;
-    color: darkgrey;
-
-
+    color: #fff
 }
+
 .aboutus-img {
      width: 180px;
      height: 180px;
@@ -363,17 +363,18 @@ body {
     
 }
 .shortstory-h {
-    font-size: 4em ;
-    color: rgb(203, 205, 205);
-    background-color: #fa6b37;
+    font-size: 3em ;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    background-color: #db5a2b;
+    margin-bottom: 1em;
 }
-.shortstory-p { 
-
-    margin: 30px;
-    
-    font-size: 1.5em;
-    color: rgb(165, 171, 171);
-    
+.shortstory-p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    color: #fff;
 }
 
 /**************information-list-reproduction*******************/
