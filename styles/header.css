@@ -65,6 +65,7 @@ header {
 }
 
 .nav li:hover, li.activate {
+  color: #fa6b37;
   background-color: rgba(0, 0, 0, .3);
 }
 
@@ -139,6 +140,9 @@ ul.show {
   top: 65px;
 }
 
+.active {
+  color: #fa6b37;
+}
 
 @media screen and (min-width: 952px) {
     #check {
@@ -257,11 +261,15 @@ ul.show {
     }
 
     #check:checked ~ .nav-menu {
-      height: 100vh;
+      height: 100%;
     }
 
     #check:checked ~ .nav-menu li {
       display: block;
+    }
+
+    .btn-prueba {
+        display: none;
     }
 }
 .haeder-content {
@@ -349,50 +357,6 @@ ul.show {
         background-position: center;
     }
 }
-
-
-/***************************/
-/*
-.ov-btn-slide-left {
-  background: #fa6b37;
-  color: #ffffff; 
-  border: 2px solid #ffffff; 
-  padding: 16px 20px;
-  border-radius: 3px;
-  margin-top: 30px;
-  font-size: bold;
-  text-transform: uppercase;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-.ov-btn-slide-left:hover {
-  color: #fa6b37; 
-  border: 2px solid #fa6b37;
-}
-.ov-btn-slide-left::after {
-  content: "";
-  background: #fff; 
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: -100%;
-  right: 100%;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-  
-.ov-btn-slide-left:hover::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-
-/*********************/
 
 .haeder-content-information a {
   position: relative;
