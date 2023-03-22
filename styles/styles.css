@@ -31,9 +31,10 @@ body {
         height: 500px;
 }
 .aboutus-h {
-    
+    margin-top: 1.5rem;
+    font-size: 1.rem;
     text-align: center;
-    color: rgb(145, 145, 145);
+    color: #fff;
     background-color: black;
 }
 .container {
@@ -47,16 +48,15 @@ body {
 
 .aboutus-name {
     padding: 20px 40px 20px 40px;
-    color: rgb(111, 93, 93);
+    color: #fff
 }
 .aboutus-description {
     font-size: 25px;
     max-width: 70%;
     text-align: center;
-    color: darkgrey;
-
-
+    color: #fff
 }
+
 .aboutus-img {
      width: 180px;
      height: 180px;
@@ -151,7 +151,46 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
  /*EVENTS*/
+ .add-sectn {
+    display: flex;
+    justify-content: center;
+ }
+ .video-add {
+    border: 3px solid white;
+    margin-top: 30vh;
+    margin-bottom: 20vh;
+    
+ }
+ .fest button{
+    font-size: larger;
+    margin-left: 45vw;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: gold;
+    
+ }
+ .fest button:hover {
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(223, 221, 221, 0.24), 0 17px 50px 0 rgba(135, 132, 132, 0.19);
+}
+ .fest h2 {
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+ }
+ .fest p {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+ }
+ .fest a {
+    text-align: center;
+ }
 .section-events {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
@@ -165,24 +204,21 @@ body {
     font-size: 1.5em;
 }
 .events-card {
+    text-align: center;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     height: 500px;
-    width: 500px;
+    width: 50%;
     margin-top: 100px;
     padding: 0;
 }
  .events {
     background-image: url(../assets/img/events-header.92c1b90.gif);
-    height: 500px;
-    width: 500px;
+    width: 50%;
     margin-top: 100px;
-    
     display: flex;
     justify-content: space-between;
-    
-    
     flex-direction: column;
 
 
@@ -321,26 +357,31 @@ body {
         padding-top: 40px;
     }
 
+    .information-sound-level {
+        width: 100%;
+        border-right: none;
+    }
 }
 
 /****************ABOUT****************/
 .shortstory {
-    color: rgb(170, 170, 170);
+    color: rgb(255, 255, 255);
     font-size: larger;
     
 }
 .shortstory-h {
-    font-size: 4em ;
-    color: rgb(61, 96, 96);
-    background-color: #e66465;
+    font-size: 3em ;
+    text-align: center;
+    color: #fff;
+    padding: 1rem 0;
+    background-color: #db5a2b;
+    margin-bottom: 1em;
 }
-.shortstory-p { 
-
-    margin: 30px;
-    
-    font-size: 1.5em;
-    color: rgb(165, 171, 171);
-    
+.shortstory-p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    color: #fff;
 }
 
 /**************information-list-reproduction*******************/
@@ -358,14 +399,14 @@ body {
     margin: auto;
     align-items: center;
     color: #ffff;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 20px ;
 }
 
 .information-list-reproduction h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     width: 100%;
 }
 
@@ -454,5 +495,8 @@ body {
         box-shadow: 0 0 20px white;
         transform: scale(1); translate: 0%;;
         
+}
+    .section-events {
+       flex-direction: column;
 }
 }

@@ -11,26 +11,35 @@ footer{
   width: 100%;
   bottom: 0;
   left: 0;
-  padding: 2rem 8%;
   background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 1em;
 }
 
 
 .social-icons-container, .footer-menu-container{
+    width: 80%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
+
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
 .social-icons-container i{
+    width: 100%;
+    align-items: center;
   font-size:75px;
   color: #ffffff;
+}
+
+.social-icons-container i:hover {
+    color: #db5a2b;
 }
 
 .social-icon{
@@ -60,11 +69,34 @@ footer{
 .menu-item a{
   text-decoration: none;
   color: #ffffff;
+}
 
+.menu-item a:hover {
+    color: #db5a2b;
 }
 
 .copyright{
-  color: #ffffff;
-  opacity: 0.3;
+  color: #db5a2b;
   text-align: center;
+}
+
+/********SOCIAL MEMBER*********/
+.social-member {
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+}
+.social-member p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+    .social-icons-container, .footer-menu-container{
+        flex-direction: column;
+    }
+        
 }
