@@ -94,7 +94,8 @@ header {
   content: '';
   height: 14px;
   width: 14px;
-  position: absolute;
+  position: unset;
+
   transition: all .35s ease;
   opacity: 0;
 }

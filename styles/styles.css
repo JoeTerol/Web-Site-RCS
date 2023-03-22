@@ -51,7 +51,7 @@ body {
     color: #fff
 }
 .aboutus-description {
-    font-size: 25px;
+    font-size: 1.1em;
     max-width: 70%;
     text-align: center;
     color: #fff
@@ -62,6 +62,7 @@ body {
      height: 180px;
      margin: 10px;
 }
+
 /*PROMO-CARDS*/
 .promo-sctn {
     background-color: black;
