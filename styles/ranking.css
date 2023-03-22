@@ -23,6 +23,7 @@ body{
   background-position: 0px 481px;
 }
 .subtitle p {
+    text-align: center;
   font-family:fantasy;
   font-weight: 400px;
   font-size: 100px;
@@ -42,6 +43,7 @@ body{
 }
 
 .row{
+    align-items: center;
     width: 100%;
     justify-content: space-evenly;
     background-color: black;
@@ -51,6 +53,7 @@ body{
   background-color:#fa6b37;
 }
 .accordion-body{
+  align-items: center; 
   background-color: black;
 }
 .accordion-button{
@@ -174,7 +177,7 @@ span{
 
 @media (max-width: 900px) and (min-width: 600px){
   .row{
-    margin-left: 25%;
+    /*margin-left: 25%;*/
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -192,7 +195,7 @@ span{
 
 @media (max-width: 600px){
   .row{
-    margin-left: 15%;
+    /*padding-left: 15%;*/
          display: flex;
          flex-direction: column;
          justify-content: center;
