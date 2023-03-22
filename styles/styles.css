@@ -498,6 +498,7 @@ body {
         
 }
     .section-events {
+        align-items: center;
        flex-direction: column;
 }
 }
