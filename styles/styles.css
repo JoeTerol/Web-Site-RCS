@@ -189,6 +189,8 @@ body {
     text-align: center;
  }
 .section-events {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
@@ -207,13 +209,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 500px;
-    width: 100%;
+    width: 50%;
     margin-top: 100px;
     padding: 0;
 }
  .events {
     background-image: url(../assets/img/events-header.92c1b90.gif);
-    width: 35%;
+    width: 50%;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
