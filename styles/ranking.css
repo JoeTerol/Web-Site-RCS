@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: black;
     font-family: 'Quicksand', sans-serif;
 }
 .pop{
@@ -60,6 +60,7 @@ body{
 .accordion-body{
   align-items: center; 
   background-color: black;
+	padding: 0;
 }
 .accordion-button{
   font-family: fantasy;
