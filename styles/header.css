@@ -291,7 +291,7 @@ ul.show {
 }
 
 .haeder-content-information h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   text-align: center;
   font-weight: 600;
   padding-bottom: 30px;
@@ -328,6 +328,7 @@ ul.show {
 
     .haeder-content-information h1 {
         width: 60%;
+				font-size: 3.5em;
     }
 
 
