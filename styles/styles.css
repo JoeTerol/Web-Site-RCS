@@ -151,6 +151,9 @@ body {
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.promo-card a {
+    text-align: center;
+}
  /*EVENTS*/
  .add-sectn {
     display: flex;
@@ -165,7 +168,8 @@ body {
  .fest button{
     font-size: larger;
     margin-left: 45vw;
-    margin-bottom: 50px;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
     padding: 20px;
     border-radius: 10%;
     background-color: gold;
@@ -407,7 +411,7 @@ body {
 .information-list-reproduction h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 38px;
     width: 100%;
 }
 
@@ -445,7 +449,7 @@ body {
 
 @media (max-width: 600px) {
 .promo-sctn {
-    margin-left: 10vw;
+    /*margin-left: 10vw;*/
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -466,7 +470,19 @@ body {
     scale:  0.9;
 }
 .section-events {
-    flex-direction: column;
+	width: 100%;
+	align-items: center;
+  flex-direction: column;
+}
+
+.section-events h2{
+	font-size: 3em;
+}
+
+.fest button {
+	width: 100%;
+	margin-left: 0;
+	margin-top: 2em;
 }
 }
 @media (max-width: 950px) and (min-width: 600px) {

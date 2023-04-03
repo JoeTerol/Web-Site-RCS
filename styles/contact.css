@@ -6,7 +6,8 @@ body{
 }
 
 .box-area{
-    width: 930px;
+    width: 85vw;
+    height: 90vh  ;
 }
 
 .right-box{

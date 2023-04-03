@@ -1,8 +1,13 @@
 body{
-    background-color: aqua;
+    background-color: black;
     font-family: 'Quicksand', sans-serif;
 }
-
+.pop{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .subtitle{
   align-items: center;
   justify-content: center;
@@ -55,6 +60,7 @@ body{
 .accordion-body{
   align-items: center; 
   background-color: black;
+	padding: 0;
 }
 .accordion-button{
   font-family: fantasy;
@@ -199,9 +205,11 @@ span{
          display: flex;
          flex-direction: column;
          justify-content: center;
+         align-items: center;
   }
   .contenedor{
-    width: 70%;
+    width: 80%;
+    align-items: center;
   }
   .contenedor:hover{
     cursor: pointer;
