@@ -165,7 +165,8 @@ body {
  .fest button{
     font-size: larger;
     margin-left: 45vw;
-    margin-bottom: 50px;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
     padding: 20px;
     border-radius: 10%;
     background-color: gold;
